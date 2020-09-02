@@ -1,0 +1,52 @@
+.img {
+    width: 420px;
+    height: auto;
+    margin-bottom: 32px;
+    margin-top: 0;
+}
+
+.sub_title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 300;
+    color: #B4AD9E;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+
+.title {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    text-align: left;
+    font-weight: 400;
+    margin-bottom: 34px;
+}
+
+.text {
+    font-family: 'Playfair Display', serif;
+
+    font-size: 14px;
+    text-align: left;
+}
+
+.section {
+    width: 420px;
+    display: inline-block;
+    margin-right: 60px;
+    text-align: center;
+    margin: 0, auto;
+    margin-bottom: 130px;
+}
+
+.main {
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-weight: 400;
+    text-align: center;
+    margin: 0, auto;
+}
+
+.section:nth-child(2n+2) {
+    margin-right: 0;
+}

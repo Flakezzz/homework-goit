@@ -1,0 +1,33 @@
+.nav_item {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    color: #626262;
+    cursor: pointer;
+}
+
+.nav_item:last-child {
+    margin-right: 0;
+}
+
+.nav_list_block {
+    display: inline-block;
+    margin-right: 95px;
+
+    
+}
+
+.nav {
+    text-align: center;
+}
+
+.header {
+    margin-top: 77px;
+    margin-bottom: 102px;
+    font-family: 'Playfair Display', serif;
+}
+
+.nav_item:hover {
+    color: rgb(3, 169, 244);
+}
