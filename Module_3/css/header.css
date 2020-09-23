@@ -31,3 +31,7 @@
 .nav_item:hover {
     color: rgb(3, 169, 244);
 }
+
+.nav_list_block:nth-child(4) {
+    margin-right: 0;
+}
