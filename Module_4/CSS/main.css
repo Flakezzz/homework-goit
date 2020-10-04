@@ -1,0 +1,144 @@
+.h3 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-bottom: 41px;
+    text-transform: uppercase;
+}
+
+.h4 {
+    text-align: center;
+    margin-bottom: 22px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    margin-bottom: 22px;
+}
+
+.main {
+    width: 1300px;
+}
+
+.service {
+    width: 1150px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.h3::after {
+    display: block;
+    content: '';
+    height: 4px;
+    width: 61px;
+    background-color: #F38181;
+    margin: 0 auto;
+    margin-top: 41px;
+}
+
+.services_text {
+    display: flex;
+    width: 1150px;
+    margin: 0 auto;
+    margin-bottom: 92px;
+}
+
+.perk {
+    width: 330px;
+    height: 70px;
+    margin-right: 71px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    width: 274px;
+    height: 40px;
+    margin-left: 60px;
+    color: #999999;
+}
+
+.service_title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 28px;
+}
+
+.sub_team {
+    color: #999999;
+    text-align: center;
+    width: 940px;
+    height: 40px;
+}
+
+.wrapper {
+    width: 1300px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+    margin-top: 46px;
+}
+
+.photo_team {
+    width: 380px;
+    height: 470px;
+    margin-right: 28px;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 81px;
+}
+
+.photo_team:nth-child(3) {
+    margin-right: 0;
+}
+
+.name_wrapper {
+    width: 1200px;
+    height: auto;
+}
+
+.job {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    text-transform: uppercase;
+    margin-top: 31px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.job {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    color: #B9B9B9;
+}
+
