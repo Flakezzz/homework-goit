@@ -1,0 +1,262 @@
+.h3::after {
+    display: block;
+    content: '';
+    height: 4px;
+    width: 61px;
+    background-color: #F38181;
+    margin: 0 auto;
+    margin-top: 41px;
+}
+
+.h4 {
+    text-align: center;
+    margin-bottom: 22px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    margin-bottom: 22px;
+}
+
+.h3 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-bottom: 41px;
+    text-transform: uppercase;
+}
+
+.services {
+    margin-top: 66px;
+}
+
+.perk {
+    width: 270px;
+    height: 70px;
+    margin-bottom: 100px;
+    margin-left: 131px;
+}
+
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    width: 274px;
+    height: 40px;
+    margin-left: 60px;
+    color: #999999;
+}
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.row:nth-child(3) {
+    margin-right: 0;
+}
+
+.photography_title::before {
+    content: url(../img/alarm.png);
+    margin-right: 27px;
+    position: relative;
+    top: 22px;
+}
+
+.web_design_title::before {
+    content: url(../img/graph.png);
+    margin-right: 27px;
+    position: relative;
+    top: 22px;
+}
+
+.creativity_title::before {
+    content: url(../img/computer.png);
+    margin-right: 27px;
+    position: relative;
+    top: 22px;
+}
+
+.seo_title::before {
+    content: url(../img/book.png);
+    margin-right: 27px;
+    position: relative;
+    top: 22px;
+}
+
+.css_title::before {
+    content: url(../img/home.png);
+    margin-right: 27px;
+    position: relative;
+    top: 22px;
+}
+
+.digital_title::before {
+    content: url(../img/image.png);
+    margin-right: 27px;
+    position: relative;
+    top: 22px;
+}
+
+.photography_title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.web_design_title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.creativity_title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.seo_title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.css_title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.digital_title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.team_text {
+    color: #999999;
+    text-align: center;
+    width: 940px;
+    height: 40px;
+    margin-bottom: 90px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.photo_team {
+    margin-right: 28px;
+    width: 380px;
+    height: 470px;
+}
+
+.photo_team:nth-child(3) {
+    margin-right: 0;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    position: relative;
+    top: 128px;
+    margin-bottom: 82px;
+}
+
+.name {
+    text-transform: uppercase;
+    margin-top: 31px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.job {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    color: #B9B9B9;
+}
+
+.icon_link {
+    width: 56px;
+    height: 56px;
+    display: inline-block;
+    background-color: #fce38a;
+    position: relative;
+    margin-right: 1px;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icons {
+    display: none;
+    font-size: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 230px;
+}
+
+.icon_link:hover {
+    background-color: #95e1d3;
+}
+
+.icon_link:nth-child(4) {
+    margin-right: 0;
+}
+
+.photo_wrapper {
+    position: relative;
+}
+
+.team_hidden {
+    width: 380px;
+    height: 470px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.photo_wrapper:hover > .team_hidden {
+    transform: translate(-10px, -10px);
+    transition: 500ms linear;
+    background : linear-gradient(rgba(249, 129, 129, 0.8), rgba(238, 214, 135, 0.8));
+    -webkit-box-shadow: 10px 10px 0px 0px rgba(149,225,211,1);
+    -moz-box-shadow: 10px 10px 0px 0px rgba(149,225,211,1);
+    box-shadow: 10px 10px 0px 0px rgba(149,225,211,1);
+}
+
+.photo_wrapper:hover .icons {
+    display: block;
+}
+
+.photo_wrapper:hover .photo_team {
+    transform: translate(-10px, -10px);
+    transition: 500ms linear;
+}
