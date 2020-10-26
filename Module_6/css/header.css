@@ -1,0 +1,53 @@
+.logo {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    font-size: 24pt;
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    left: 237px;
+    top: 45px;
+}
+
+.logo_link {
+    text-decoration: none;
+    color: #fed136;
+}
+
+.item_link {
+    text-decoration: none;
+    color: #222222;
+}
+
+.menu_item {
+    display: inline-block;
+    margin-right: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14pt;
+    font-weight: 500;
+}
+
+.menu_item:nth-child(5) {
+    margin-right: 0;
+}
+
+.item_link:hover {
+    color: #fed136;
+}
+
+.header {
+    width: 930px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    position: absolute;
+    right: 230px;
+    top: 55px;
+}
+
+.header_wrapper {
+    width: 930px;
+    height: auto;
+}

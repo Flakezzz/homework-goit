@@ -1,0 +1,72 @@
+.main_title {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 192px;
+}
+
+.main_sub_text {
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 19px;
+    color: #c7c7c7;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.icon_wrapper {
+    width: 68px;
+    height: 68px;
+    border: 3px solid #fed136;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.icon_move {
+    text-align: center;
+    margin-top: 80px;
+    
+}
+
+.icon_title {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #222222;
+    margin-top: 28px;
+}
+
+.icon_text {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #c7c7c7;
+    width: 274px;
+    height: 57px;
+    margin-top: 18px;
+}
+
+.perk {
+    display: inline-block;
+    margin-right: 56px;
+    margin-bottom: 165px;
+}
+
+.all_icons {
+    display: flex;
+    justify-content: center;
+}
+
+.perk:nth-child(3) {
+    margin-right: 0;
+}
