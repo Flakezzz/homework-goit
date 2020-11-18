@@ -1,7 +1,7 @@
 
 
 .header_menu {
-    display: flex;
+    list-style: none;
     text-decoration: none;
 }
 
@@ -29,9 +29,7 @@
 }
 
 .nav {
-    display: flex;
-    justify-content: space-between;
-    justify-content: flex-end;
+    width: 490px;
 }
 
 .menu {
@@ -40,8 +38,6 @@
 }
 
 .menu_item {
-    align-items: flex-end;
-    margin-right: 55px;
     font-family: 'Montserrat', sans-serif;
     color: #95E1D3;
     text-decoration: none;
