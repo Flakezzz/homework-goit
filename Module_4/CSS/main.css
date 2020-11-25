@@ -36,6 +36,11 @@
     margin-top: 41px;
 }
 
+.main_section {
+    width: 1200px;
+    margin: 0 auto;
+}
+
 .services_text {
     display: flex;
     width: 1150px;
