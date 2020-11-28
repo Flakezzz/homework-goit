@@ -1,0 +1,164 @@
+.header_wrapper {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(255, 255, 255, 0)), url(../img/mobile_img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header {
+    width: 100%;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    width: 90px;
+    height: 36px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.btn:hover {
+    border-radius: 36px;
+    border: white 2px solid;
+}
+
+.btn_wrapper {
+    text-align: center;
+    padding-top: 21px;
+    margin-bottom: 115px;
+}
+
+.header_title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 38px;
+}
+
+.header_sub {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 29px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+}
+
+.header_text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    width: 217px;
+    margin: 0 auto;
+    margin-bottom: 19px;
+}
+
+.holiday_btn {
+    border-radius: 40px;
+    background-color: #ff4e50;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 13px 51px;
+}
+
+.hol_wrapper {
+    text-align: center;
+    padding-bottom: 139px;
+
+}
+
+
+/* Tablet */
+
+
+
+@media screen and (min-width: 768px) {
+
+    .header_wrapper {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(255, 255, 255, 0)), url(../img/tablet_img.png);
+    }
+    
+    .header {
+        padding: 2rem 2rem 0 2rem;
+    }
+    
+    
+    .btn_wrapper {
+        position: absolute;
+        right: 49px;
+        top: 38px;
+    }
+    
+    .header_title {
+        position: absolute;
+        left: 49px;
+        top: 46px;
+    }
+    
+    .header_sub {
+        width: 500px;
+        font-size: 51px;
+        margin: 226px auto 40px auto;
+    }
+    
+    .header_text {
+        font-size: 24px;
+        width: 400px;
+        margin-bottom: 34px;
+    }
+    
+    .holiday_btn {
+        padding: 13px 24px;
+    }
+    
+    .hol_wrapper {
+        padding-bottom: 234px;
+    
+    }
+}
+
+
+
+/* Desktop */
+
+
+
+@media screen and (min-width: 1440px) {
+
+    .header_wrapper {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(255, 255, 255, 0)), url(../img/desktop_img.png);
+    }
+    
+    
+    .btn_wrapper {
+        position: absolute;
+        top: 38px;
+        right: 250px;
+    }
+    
+    .header_title {
+        position: absolute;
+        top: 46px;
+        left: 250px;
+    }
+    
+    
+    .hol_wrapper {
+        padding-bottom: 246px;
+    
+    }
+}
